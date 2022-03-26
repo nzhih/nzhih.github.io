@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imynest.github.io/</id>
-    <title>志华的设计窝</title>
-    <updated>2022-03-26T12:32:58.685Z</updated>
+    <title>农志华的设计室</title>
+    <updated>2022-03-26T13:09:18.229Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://imynest.github.io/"/>
     <link rel="self" href="https://imynest.github.io/atom.xml"/>
     <subtitle>志华的设计窝</subtitle>
     <logo>https://imynest.github.io/images/avatar.png</logo>
     <icon>https://imynest.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, 志华的设计窝</rights>
+    <rights>All rights reserved 2022, 农志华的设计室</rights>
 </feed>
