@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>农志华的设计室</title>
+    <meta name="description" content="自用导航站">
+    <link rel="shortcut icon" href="https://nzhih.github.io/media/images/favicon.ico">
+    <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="https://nzhih.github.io/media/css/icomoon.css">
+    <link rel="stylesheet" href="https://nzhih.github.io/media/css/main.css?v=1669304522956">
+<SCRIPT language=JavaScript> 
+ 
+function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt('请输入密码:',''); 
+ 
+while (testV < 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == "、") { 
+ 
+alert('密码正确!'); 
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt('密码错误!请重新输入:'); 
+ 
+} 
+ 
+if (pass1!="password" & testV ==3) 
+ 
+history.go(-1); 
+ 
+return " "; 
+ 
+} 
+ 
+document.write(password()); 
+ 
+</SCRIPT>
+  </head>
+
+<body class="page-body">
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="https://nzhih.github.io" class="logo-expanded">
+                            <img src="https://nzhih.github.io/images/avatar.png"  style="height:68px" alt="" />
+                        </a>
+                        <a href="https://nzhih.github.io" class="logo-collapsed">
+                            <img src="https://nzhih.github.io/media/images/eduifuns.png" width="40" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </div>
+                </header>
+                <ul id="main-menu" class="main-menu">
+                    <!-- li 加 has-sub 开启分组-->
+                    <li class="has-sub">
+                        <a>
+                            <i class="icon-globe"></i>
+                            <span class="title">平面设计</span>
+                        </a>
+                        <!-- ul li 格式添加子分组-->
+                        <ul>
+                            <li>
+                                <a href="#灵感素材" class="smooth">
+                                    <i class="icon-star"></i>
+                                    <span class="title">灵感素材</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#图像编辑" class="smooth">
+                                    <i class="icon-pencil"></i>
+                                    <span class="title">图像编辑</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#调色字体" class="smooth">
+                                    <i class="icon-database"></i>
+                                    <span class="title">调色字体</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#我的网盘" class="smooth">
+                            <i class="icon-desktop"></i>
+                            <span class="title">我的网盘</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#分享交流" class="smooth">
+                            <i class="icon-graduation-cap"></i>
+                            <span class="title">分享交流</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#综合工具" class="smooth">
+                            <i class="icon-inbox"></i>
+                            <span class="title">综合工具</span>
+                        </a>
+                    </li>
+                    
+                    <li class="submit-tag">
+                        <a href="https://nzhih.github.io" class="logo-expanded">
+                            <i class="icon-heart"></i>
+                            <span class="title">事以密成 · 语以泄败</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 今日诗词 -->
+            <div id="poem_content">
+                <h3 id="poem_sentence"></h3><span id="poem_info"></span>
+            </div>
+            <!-- 今日诗词 -->
+            <br />
+            <!-- 平面设计 -->
+            
+            <h4 class="text-gray"><i class="icon-star" style="margin-right: 7px;" id="灵感素材"></i>灵感素材</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://huaban.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://huaban.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://huaban.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>花瓣网</strong>
+                                </a>
+                                <p class="overflowClip_2">花瓣网_陪你做生活的设计师（创意灵感天堂，搜索、发现设计灵感、设计素材</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pinterest.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pinterest.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.pinterest.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Pinterest</strong>
+                                </a>
+                                <p class="overflowClip_2">灵感创意点</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.redocn.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.redocn.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.redocn.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>红动中国</strong>
+                                </a>
+                                <p class="overflowClip_2">红动网 - 找设计！上红动</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.photophoto.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.photophoto.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.photophoto.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>图行天下</strong>
+                                </a>
+                                <p class="overflowClip_2">免费设计素材下载网站_平面设计模板素材中国共享平台</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.ztupic.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.ztupic.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.ztupic.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>众图网</strong>
+                                </a>
+                                <p class="overflowClip_2">精品高清设计图库-提供商用图片素材下载。高质量文化墙</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.51miz.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.51miz.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.51miz.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>觅知网</strong>
+                                </a>
+                                <p class="overflowClip_2">版权图片素材网站,PPT模板,PS,AI,PNG图片素材会员免费下载</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.58pic.com/favicon.ico', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.58pic.com/favicon.ico">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.58pic.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>千图网</strong>
+                                </a>
+                                <p class="overflowClip_2">免费设计图片素材网站-正版图库免费设计素材中国</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://588ku.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://588ku.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://588ku.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>千库网</strong>
+                                </a>
+                                <p class="overflowClip_2">千库网_免费png图片背景素材下载,做设计不抠图</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://699pic.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://699pic.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://699pic.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>摄图网</strong>
+                                </a>
+                                <p class="overflowClip_2">正版高清图片免费下载_商用设计素材图库</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://ibaotu.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ibaotu.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://ibaotu.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>包图网</strong>
+                                </a>
+                                <p class="overflowClip_2">专注原创商用设计图片下载，会员免费设计素材模板独家图库</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://weili.ooopic.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://weili.ooopic.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://weili.ooopic.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>我图网</strong>
+                                </a>
+                                <p class="overflowClip_2">综合创意服务交易平台,工业品牌包装,正版图片设计素材下载</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.88tph.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.88tph.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://img.88tph.com/icon/logo.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>图品汇</strong>
+                                </a>
+                                <p class="overflowClip_2">免费素材模板图片网，设计师都在使用的免费素材图片平台</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.nipic.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.nipic.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.nipic.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>昵图网</strong>
+                                </a>
+                                <p class="overflowClip_2">原创素材共享平台</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.16pic.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.16pic.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.16pic.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>六图网</strong>
+                                </a>
+                                <p class="overflowClip_2">六图网-psd素材网_免费设计素材下载_正版高清图片下载库</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://616pic.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://616pic.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://616pic.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>图精灵</strong>
+                                </a>
+                                <p class="overflowClip_2">免费PNG图片下载_高清背景图片素材_自由设计</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.sccnn.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.sccnn.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://www.sccnn.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>素材CNN</strong>
+                                </a>
+                                <p class="overflowClip_2">免费素材共享平台www.sccnn.com_素材中国</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.tukuppt.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.tukuppt.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.tukuppt.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>熊猫办公</strong>
+                                </a>
+                                <p class="overflowClip_2">创意设计素材 高效办公</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.51yuansu.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.51yuansu.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.51yuansu.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>觅元素</strong>
+                                </a>
+                                <p class="overflowClip_2">觅元素_设计元素的免费下载网站_免抠素材</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.kuaipng.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.kuaipng.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://www.kuaipng.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>快图网</strong>
+                                </a>
+                                <p class="overflowClip_2">免费PNG图片免抠PNG高清背景素材库</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pexels.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pexels.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.pexels.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>pexels</strong>
+                                </a>
+                                <p class="overflowClip_2">才华横溢的摄影作者在这里免费分享最精彩的素材图片</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://stocksnap.io/img', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://stocksnap.io/img">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://stocksnap.io/img/favicon.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>StockSna</strong>
+                                </a>
+                                <p class="overflowClip_2">免费库存照片和图片 - StockSnap.i</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://free-paper-texture.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://free-paper-texture.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://free-paper-texture.com/06_paper/wp-content/themes/paper/images/logo.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Paper-co</strong>
+                                </a>
+                                <p class="overflowClip_2">免费下载纸纹理材料</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="icon-pencil" style="margin-right: 7px;" id="图像编辑"></i>图像编辑</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.remove.bg', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.remove.bg">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.remove.bg/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Removebg</strong>
+                                </a>
+                                <p class="overflowClip_2">在线抠图软件_图片去除背景</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.6k6k.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.6k6k.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.6k6k.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>忙忙侠</strong>
+                                </a>
+                                <p class="overflowClip_2">免费人工智能抠图软件_全自动ai抠图_在线抠图</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://picwish.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://picwish.cn/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://qncdn.aoscdn.com/img/picwish-home/favicon.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>佐糖</strong>
+                                </a>
+                                <p class="overflowClip_2">免费在线抠图神器_证件照换底色_照片修复_无损压缩创意图像平台-PicWish</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://koutu.fjdaze.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://koutu.fjdaze.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://koutu.fjdaze.com/icon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>大泽抠图</strong>
+                                </a>
+                                <p class="overflowClip_2">在线抠图软件_一键免费抠图工具</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://photokit.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://photokit.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://photokit.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>免费在线图片编辑器</strong>
+                                </a>
+                                <p class="overflowClip_2">在线抠图、改图、修图、美图</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bgsub.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bgsub.cn/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://bgsub.com//previewImage.jpg"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Bgsub</strong>
+                                </a>
+                                <p class="overflowClip_2">消除或者替换图像背景，无需上传图像</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.bgconverter.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.bgconverter.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.bgconverter.com/static/image/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>BGC</strong>
+                                </a>
+                                <p class="overflowClip_2">证件照换底色，在线证件照换底色，一键证件照换底色</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.magiceraser.io', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.magiceraser.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.magiceraser.io/MagicEraserBlob-16x16.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>魔术橡皮擦</strong>
+                                </a>
+                                <p class="overflowClip_2">在几秒钟内从图像中删除不需要的东西</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://clipdrop.co', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://clipdrop.co">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://clipdrop.co/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>ClipDrop</strong>
+                                </a>
+                                <p class="overflowClip_2">Ai智能抠图-智能删除背景-无损放大</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://resd.oss-accelerate.aliyuncs.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://resd.oss-accelerate.aliyuncs.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://resd.oss-accelerate.aliyuncs.com/jpghd/logo.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>jpgHD</strong>
+                                </a>
+                                <p class="overflowClip_2">人工智能老照片无损修复, 利用2022年最先进人工智能 AI 将老照片无损高清修复（支持老照片修复、老照片上色和魔法动态照片</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bigjpg.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bigjpg.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://bigjpg.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Bigjpg</strong>
+                                </a>
+                                <p class="overflowClip_2">AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://palette.fm/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://palette.fm/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://palette.fm/favicon.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Palette</strong>
+                                </a>
+                                <p class="overflowClip_2">黑白照片上色 - Colorize Photos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.zaixianai.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.zaixianai.cn/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.zaixianai.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>在线AI转换</strong>
+                                </a>
+                                <p class="overflowClip_2">图像去雾|在线图像,照片无损放大|图像拉伸修复|黑白图像,照片上色-在线AI图像官网</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://wordart.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://wordart.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://wordart.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>WORDART</strong>
+                                </a>
+                                <p class="overflowClip_2">词云艺术创作者</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://weavesilk.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://weavesilk.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://weavesilk.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>SILK</strong>
+                                </a>
+                                <p class="overflowClip_2">对称线互动生成艺术</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://wangyasai.github.io', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://wangyasai.github.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://wangyasai.github.io/Speed-Line/image/1.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Speed-Line</strong>
+                                </a>
+                                <p class="overflowClip_2">运动、速度线条背景生成</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bggenerator.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bggenerator.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://bggenerator.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>背景生成器</strong>
+                                </a>
+                                <p class="overflowClip_2">多边形晶格背景图像生成器 - 免费在线创建多边形渐变色背景图像</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://coolbackgrounds.io', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://coolbackgrounds.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://coolbackgrounds.io/images/favicon-fe5a0ff5.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>酷炫的背景</strong>
+                                </a>
+                                <p class="overflowClip_2">背景生成</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://web.baimiaoapp.com/favicon.ico', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://web.baimiaoapp.com/favicon.ico">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://web.baimiaoapp.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>白描网页版</strong>
+                                </a>
+                                <p class="overflowClip_2">图片转Excel表格在线 - 表格文字识别 - 照片转换成Excel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="icon-database" style="margin-right: 7px;" id="调色字体"></i>调色字体</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://zhongguose.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://zhongguose.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://zhongguose.com/img/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>中国色</strong>
+                                </a>
+                                <p class="overflowClip_2">中国传统颜色</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://webgradients.com/img/other/logos/webgradients_logo.png', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://webgradients.com/img/other/logos/webgradients_logo.png">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://webgradients.com/img/other/logos/webgradients_logo.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>渐变背景</strong>
+                                </a>
+                                <p class="overflowClip_2">清新的背景渐变</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://uigradients.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://uigradients.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://uigradients.com/static/images/favicon-16x16.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>渐变</strong>
+                                </a>
+                                <p class="overflowClip_2">美丽的彩色渐变</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://izihun.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://izihun.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://izihun.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>字魂网</strong>
+                                </a>
+                                <p class="overflowClip_2">字体下载_免费字体下载_商用字体设计定制</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.fonts.net.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.fonts.net.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.fonts.net.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>字体天下</strong>
+                                </a>
+                                <p class="overflowClip_2">提供各类字体的免费下载和在线预览服务</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://ziyouziti.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ziyouziti.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://ziyouziti.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>自由字体</strong>
+                                </a>
+                                <p class="overflowClip_2">费字体下载_免费商用字体_免费字体网</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.shufaziti.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.shufaziti.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://www.shufaziti.com/apple-touch-icon.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>书法字体</strong>
+                                </a>
+                                <p class="overflowClip_2">在线书法字体转换_毛笔书法字体生成_矢量书法字典在线查询</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 平面设计 -->
+
+            <!-- 我的网盘 -->
+            
+            <h4 class="text-gray"><i class="icon-desktop" style="margin-right: 7px;" id="我的网盘"></i>我的网盘</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://nd-static.bdstatic.com/m-static/infocenter/static/images/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://nd-static.bdstatic.com/m-static/infocenter/static/images/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://nd-static.bdstatic.com/m-static/infocenter/static/images/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>百度云</strong>
+                                </a>
+                                <p class="overflowClip_2">百度网盘资源存储</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://cloud.189.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://cloud.189.cn/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cloud.189.cn/web/logo.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>天翼云盘</strong>
+                                </a>
+                                <p class="overflowClip_2">珍藏美好生活 家庭云|网盘|文件备份|资源分享</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://nzhi.ysepan.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://nzhi.ysepan.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://nzhi.ysepan.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>我的藏书阁</strong>
+                                </a>
+                                <p class="overflowClip_2">专业数据存储、 可以保存您的文件、网址、记事等。以便随时随地调用或与朋友、同事分享</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://jujuso.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://jujuso.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://jujuso.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>优聚搜</strong>
+                                </a>
+                                <p class="overflowClip_2">网盘搜索引擎</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://yiso.fun/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://yiso.fun/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://yiso.fun/static/img/logo.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>易搜</strong>
+                                </a>
+                                <p class="overflowClip_2">易搜-网盘搜索</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://xxsucaiwang.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xxsucaiwang.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://xxsucaiwang.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>素材</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.yu84.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.yu84.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://www.yu84.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>素材</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 我的网盘 -->
+
+            <!-- 分享交流 -->
+            
+            <h4 class="text-gray"><i class="icon-graduation-cap" style="margin-right: 7px;" id="分享交流"></i>分享交流</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://imyshare.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://imyshare.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://imyshare.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>iMyShare</strong>
+                                </a>
+                                <p class="overflowClip_2">收集免费实用有趣的东西，做最好的资源导航</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.gozyhsq.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.gozyhsq.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://picture-1304877793.cos.ap-guangzhou.myqcloud.com/2022/03/20220326184119930.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>资源汇社区</strong>
+                                </a>
+                                <p class="overflowClip_2">免费软件、优质资源汇聚地</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.kelongwo.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.kelongwo.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.kelongwo.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>克隆窝</strong>
+                                </a>
+                                <p class="overflowClip_2">助互联网玩家寻找每一条道路</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://57cool.cool/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://57cool.cool/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://57cool.cool/wp-content/uploads/2022/09/logo_icon-300x300.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>57号同学 - 万物皆可白嫖 -</strong>
+                                </a>
+                                <p class="overflowClip_2">- 万物皆可白嫖 -</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://52print.net', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://52print.net">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://52print.net/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>我爱印刷社区</strong>
+                                </a>
+                                <p class="overflowClip_2">CDR-PS软件实用技术</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pc521.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pc521.net/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.pc521.net/wp-content/uploads/2021/01/2021010103162852.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>不忘初心博客</strong>
+                                </a>
+                                <p class="overflowClip_2">精简版系统官网</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 分享交流 -->
+
+            <!-- 综合工具 -->
+            
+            <h4 class="text-gray"><i class="icon-inbox" style="margin-right: 7px;" id="综合工具"></i>综合工具</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.qijishow.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.qijishow.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://www.qijishow.com/img/ico.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>奇迹秀</strong>
+                                </a>
+                                <p class="overflowClip_2">奇迹秀 - 因设计·而美丽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tool.lu/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://tool.lu/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://tool.lu/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>在线工具</strong>
+                                </a>
+                                <p class="overflowClip_2">你的工具箱</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://jingzhunyun.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://jingzhunyun.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://jingzhunyun.com/zb_users/upload/2019/07/201907161563270835308195.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>精准云</strong>
+                                </a>
+                                <p class="overflowClip_2">在线工具大全</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.gjw123.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.gjw123.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://www.gjw123.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>工具123</strong>
+                                </a>
+                                <p class="overflowClip_2">第一家纯在线免安装的工具网站【免费使用】</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.dianyinggou.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.dianyinggou.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.dianyinggou.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>电影狗</strong>
+                                </a>
+                                <p class="overflowClip_2">专业电影搜索引擎</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://cupfox.app/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://cupfox.app/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://p0.meituan.net/dpgroup/cd088044f183d2719f3f9fe56d5c34204207.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>茶杯狐</strong>
+                                </a>
+                                <p class="overflowClip_2">电影搜索引擎-努力让找电影变得简单</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://live.yj1211.work/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://live.yj1211.work/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://live.yj1211.work/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>JustLive</strong>
+                                </a>
+                                <p class="overflowClip_2">一款网罗全网直播的软件</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://music.liuzhijin.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://music.liuzhijin.cn/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://music.liuzhijin.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>刘志进实验室</strong>
+                                </a>
+                                <p class="overflowClip_2">音乐直链搜索|音乐在线试听 下载</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://tool.liumingye.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://tool.liumingye.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://tool.liumingye.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>MyFree MP3</strong>
+                                </a>
+                                <p class="overflowClip_2">免费音乐下载</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.gushiwen.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.gushiwen.cn/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.gushiwen.cn/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>古诗文网</strong>
+                                </a>
+                                <p class="overflowClip_2">古诗文经典传承 -名句大全</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.html22.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.html22.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="http://www.html22.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>网页转换助手</strong>
+                                </a>
+                                <p class="overflowClip_2">文库下载-word,pd</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://nbcharts.com/map/map3d.php?id=450000', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://nbcharts.com/map/map3d.php?id=450000">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://nbcharts.com/map/map3d.php?id=450000/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>NB map</strong>
+                                </a>
+                                <p class="overflowClip_2">自动生成三维地图</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 综合工具 -->
+
+
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+                    <!-- Add your copyright text here -->
+                    <div class="footer-text">
+                        最是人间留不住 · 朱颜辞镜花辞树 <span id="busuanzi_container_site_pv" style='display:none'>总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+                    </div>
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="icon-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    jinrishici.load(function(result) {
+        var sentence = document.querySelector("#poem_sentence")
+        var info = document.querySelector("#poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+    });
+    </script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
+
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
+            } else {
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function(ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="https://nzhih.github.io/media/js/bootstrap.min.js"></script>
+    <script src="https://nzhih.github.io/media/js/TweenMax.min.js"></script>
+    <script src="https://nzhih.github.io/media/js/resizeable.js"></script>
+    <script src="https://nzhih.github.io/media/js/xenon-toggles.js"></script>
+    <script src="https://nzhih.github.io/media/js/xenon-custom.js"></script>
+    <script src="https://nzhih.github.io/media/js/lozad.js"></script>
+    <script src="https://nzhih.github.io/media/js/LetterAvatar.js"></script>
+</body>
+
+
+
+</html>
